@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="styles/main.css">
     <title>To Do List</title>
 </head>
 <body>
@@ -13,11 +14,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <div class="container"> 
         <div class="card mt-5 text-center">
-            <div class="card-body">
-                <h1>To Do List</h1>
-                <input type="text" placeholder="Things To Do" />
-                <button id="enter">Enter</button>
-                <ol id="mylist"></ol>
+            <div class="card-body bg-todolist">
+                <h1 class="display-1 fw-bold">My To Do List</h1>
+                <h2 class="display-5 fw-light">What will you do today?</h2>
                 <form>
                     <div class="input-group mb-3">
                         <input type="text" id="input-user" placeholder="Things To Do" class="form-control" aria-label="Text input with dropdown button">
@@ -33,11 +32,11 @@
                     <button id="submit">Submit</button>
                 </form>
                 <div class="list-group text-dark mt-5">
-                    <label class="list-group-item d-flex justify-content-between">
-                      <input class="form-check-input me-1" type="checkbox" value="">
-                      Test Teks
-                      <span><i class="bi bi-x"></i></span>
-                    </label>
+                    <!-- <label class="list-group-item d-flex justify-content-between">
+                        <input class="form-check-input me-1" type="checkbox" value="">
+                        ${inputUser.value}
+                        <span><i class="bi bi-x"></i></span>
+                    </label> -->
                 </div>
             </div>
         </div>

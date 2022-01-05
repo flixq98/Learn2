@@ -1,0 +1,10 @@
+.bg-todolist {
+  background-color: #ddbde6;
+  color: white;
+}
+i {
+  cursor: pointer;
+}
+i:hover {
+  filter: brightness(80);
+}
