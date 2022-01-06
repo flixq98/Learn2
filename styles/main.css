@@ -1,3 +1,10 @@
+body {
+  background-color: #b1edee;
+}
+.form-check {
+  font-family: Sail;
+  text-align: center;
+}
 .bg-todolist {
   background-color: #ddbde6;
   color: white;

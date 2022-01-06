@@ -7,6 +7,7 @@ form.addEventListener("submit", function(event){
             <input class="form-check-input me-1" type="checkbox" value="">
             ${inputUser.value}
             <span><i class="bi bi-x" id="delete-btn"></i></span>
+            <span><i class="bi bi-pencil-square" id="edit_btn" pl-3 ></i></span>
         </label>
     `
     inputUser.value = "";
